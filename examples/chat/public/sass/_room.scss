@@ -38,8 +38,10 @@ ul {
 
 .page {
   height: 100%;
-  position: absolute;
+  //   position: absolute;
+  //   bottom: 0;
   width: 100%;
+  background-color: orange;
 }
 
 /* Login Page */
@@ -87,16 +89,13 @@ ul {
 
 .chat.page {
   display: none;
+  position: relative;
 }
 
 /* Font */
 
 .messages {
   font-size: 150%;
-}
-
-.inputMessage {
-  font-size: 100%;
 }
 
 .log {
@@ -109,8 +108,10 @@ ul {
 /* Messages */
 
 .chatArea {
-  height: 100%;
-  padding-bottom: 60px;
+//   height: 100%;
+  //   padding-bottom: 60px;
+  background-color: green;
+  overflow: scroll;
 }
 
 .messages {
@@ -132,15 +133,16 @@ ul {
 }
 
 /* Input */
-
 .inputMessage {
+  font-size: 200%;
   border: 10px solid #000;
   bottom: 0;
-  height: 60px;
-  left: 0;
+  height: 120px;
+  //   left: 0;
   outline: none;
   padding-left: 10px;
-  position: absolute;
-  right: 0;
+  position: relative;
+  //   right: 0;
   width: 100%;
+  font-size: 2rem;
 }
