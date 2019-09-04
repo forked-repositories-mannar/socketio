@@ -4,7 +4,7 @@ var app = express();
 var path = require('path');
 var server = require('http').createServer(app);
 var io = require('../..')(server);
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3002;
 
 server.listen(port, () => {
   console.log('Server listening at port %d', port);
