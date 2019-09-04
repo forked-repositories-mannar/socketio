@@ -1,3 +1,8 @@
+# Improvements made to Socket.IO Chat
+
+- Chat Messages now are displayed in bottom area (on top of the input box).
+- When sending chat messages, older chat messages go further up (instead down), newest messages appear always on top of the input box (whatsapp behaivor).
+- The input field and its font size has been enlarged.
 
 # Socket.IO Chat
 
